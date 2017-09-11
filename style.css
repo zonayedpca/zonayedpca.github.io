@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+body {
+	background: #FAFAFA;
+	font-size: 18px;
+    font-family: "Consolas", sans-serif;
+}
+
+.intro-area {
+    height: 330px;
+    background: #263238;
+    line-height: 320px;
+    color: #fff;
+    text-align: center;
+}
+
+.cal-area {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+ul.cal li.text {
+    text-transform: uppercase;
+}
+
+input, select, button {
+    padding: 10px 16px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+.cal {
+    font-size: 20px;
+}
+
+.btn-submit {
+    background: #8BC34A;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #009688;
+}
+
+.display-area {
+    padding: 50px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-area {
+    background: #333;
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer p a {
+    color: #333;
+    background: #fff;
+    text-decoration: none;
+}
+
+.col-half {
+    float: left;
+    padding: 1%;
+    width: 48%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
