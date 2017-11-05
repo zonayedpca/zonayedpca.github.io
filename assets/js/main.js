@@ -6,7 +6,7 @@
     
     cycleTextSel.cycleText({
         animation: 'bounceIn',
-        interval: 3000
+        interval: 300000
     });
 
 })(jQuery);
