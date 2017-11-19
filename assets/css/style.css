@@ -312,7 +312,7 @@ img {
 }
 
 .interest-area .nav-pills .nav-link.active, .show>.nav-pills .nav-link {
-    background: #000;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-weight: 900;
     border-radius: 4px;
@@ -378,16 +378,22 @@ img {
 }
 
 .interest .interest-card {
-    background: #263238;
+    background: rgba(0,0,0,0.01);
     position: relative;
     padding: 30px;
     border-radius: 4px;
+    transition: 0.2s all;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.interest .interest-card:hover {
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
 }
 
 .interest .interest-card
  h5 {
     text-transform: uppercase;
-    color: #fff;
+    color: #263238;
     font-weight: 900;
     margin: 15px 0;
     text-align: center;
