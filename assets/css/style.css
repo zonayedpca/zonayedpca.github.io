@@ -45,13 +45,14 @@ strong {
 .intro-area {
     position: relative;
     background: #000;
-    background-image: url('../img/cover.jpeg');
+    background-image: url('../img/cover.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: #fff;
 }
 
+/*
 .intro-area:after {
     content: "";
     position: absolute;
@@ -62,6 +63,7 @@ strong {
     opacity: 0.25;
     z-index: 0;
 }
+*/
 
 .intro {
     position: relative;
@@ -226,6 +228,41 @@ strong {
 
 .navbar-light .navbar-brand {
     color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-light .brand-name {
+    
+position: relative;
+    
+top: 2px;
+    
+margin: 5px;
+    
+border: solid 2px #fff;
+    
+padding: 5px 10px;
+}
+
+.navbar-light .brand-name:before {
+    content: "<";
+    font-weight: 900;
+}
+
+.navbar-light .brand-name:after {
+    content: "/>";
+}
+
+.navbar-light .brand-name:hover {
+    background: #fff;
+    color:#6c5ce7;
+}
+
+.navbar-light .navbar-brand img {
+    height: 50px;
 }
 
 .navbar-brand i {
