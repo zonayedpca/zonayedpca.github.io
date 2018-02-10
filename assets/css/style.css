@@ -362,6 +362,33 @@ padding: 5px 10px;
     border-radius: 4px;
 }
 
+.interest-card {
+    background: #dfe6e9;
+}
+
+.interest-card .interest-content {
+    padding: 0 10px;
+    margin-top: 6px;
+    position: relative;
+}
+.interest-card:hover .interest-content .interest-content-overlay a {
+    opacity: 1;
+}
+
+.interest-card .interest-content .interest-content-overlay a {
+    position: absolute;
+    opacity: 0;
+    top: -6px;
+    background: #6c5ce7;
+    left: 0;
+    width: 100%;
+    padding: 7px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+
 .skill-card {
     position: relative;
     background: #fff;
