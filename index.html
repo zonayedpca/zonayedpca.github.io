@@ -56,22 +56,22 @@
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav ml-auto text-uppercase">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" data-scroll href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Skills</a>
+                                <a class="nav-link" href="#skills">Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Interest</a>
+                                <a class="nav-link" href="#interest">Interest</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -81,22 +81,23 @@
         <!-- /Navbar Area -->
         
         <!-- About Area -->
-        <section class="about-area section-pad">
+        <section class="about-area section-pad" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="about">
                             <h3 class="text-uppercase"><strong>About</strong> Me</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda iste nostrum praesentium asperiores nulla ad impedit officiis, accusantium sapiente laudantium commodi corporis molestiae, reprehenderit neque dolorem dicta consequuntur quasi accusamus!</p>
+                            <p>I am Zonayed Ahmed, from a small, beautiful country, Bangladesh. I love to work with new things. Also love to add new skills in my pocket continuously. Skill is my weapon and perfection is my habit. Love to code with JavaScript and also love programming.</p>
+                            <p>I am currently working as a Full Stack Web Developer. Scroll Down to know more about me</p>
                             <div class="about-btn">
-                                <a class="btn btn-about" href="#"><i class="fas fa-arrow-down"></i> Know More</a>
+                                <a class="btn btn-about" data-scroll href="#skills"><i class="fas fa-arrow-down"></i> Know More</a>
                                 <a class="btn btn-about btn-about-white" href="#"><i class="fas fa-download"></i> Download CV</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="about-img">
-                            <img class="img-fluid" src="https://via.placeholder.com/600x400" alt="">
+                            <img class="img-fluid" src="assets/img/about/aboutme.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -105,7 +106,7 @@
         <!-- /About Area -->
         
         <!-- Skills Area -->
-        <section class="skills-area section-pad bg">
+        <section class="skills-area section-pad section-padding-less bg" id="skills">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col">
@@ -215,15 +216,6 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>Unity <span>Learning</span></h3>
-                                                <span class="percent">30%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="skill-card">
                                                 <h3>Git &amp; GitHub <span>from 2014</span></h3>
                                                 <span class="percent">90%</span>
                                                 <div class="progress">
@@ -233,19 +225,28 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>Skillname <span>Time duration</span></h3>
+                                                <h3>Web Design <span>From 2012</span></h3>
                                                 <span class="percent">90%</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>    
                                         </div>
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>Skillname <span>Time duration</span></h3>
+                                                <h3>Bootstrap <span>From 2012</span></h3>
                                                 <span class="percent">90%</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="skill-card">
+                                                <h3>Unity <span>Learning</span></h3>
+                                                <span class="percent">30%</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>    
                                         </div>        
@@ -255,43 +256,34 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>HTML5 <span>from 2011</span></h3>
-                                                <span class="percent">95%</span>
+                                                <h3>ES6 <span>from 2017</span></h3>
+                                                <span class="percent">80%</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>    
                                         </div>
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>CSS3 <span>from 2011</span></h3>
-                                                <span class="percent">90%</span>
+                                                <h3>Node JS <span>from 2016</span></h3>
+                                                <span class="percent">70%</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>    
                                         </div>
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>Bootstrap <span>from 2013</span></h3>
-                                                <span class="percent">90%</span>
+                                                <h3>Express JS <span>from 2017</span></h3>
+                                                <span class="percent">80%</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>    
                                         </div>
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>jQuery <span>from 2014</span></h3>
-                                                <span class="percent">90%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="skill-card">
-                                                <h3>ReactJS <span>from 2016</span></h3>
+                                                <h3>React <span>from 2017</span></h3>
                                                 <span class="percent">50%</span>
                                                 <div class="progress">
                                                     <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -300,7 +292,16 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="skill-card">
-                                                <h3>Wordpress <span>from 2011</span></h3>
+                                                <h3>Redux <span>Learning</span></h3>
+                                                <span class="percent">50%</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="skill-card">
+                                                <h3>MongoDB <span>Learning</span></h3>
                                                 <span class="percent">50%</span>
                                                 <div class="progress">
                                                     <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -318,7 +319,7 @@
         <!-- /Skills Area -->
         
         <!-- Interest Area -->
-        <section class="interest-area section-pad">
+        <section class="interest-area section-pad section-padding-less" id="interest">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col">
@@ -332,10 +333,10 @@
                         <div class="interest-card">
                             <div class="interest-title">
                                 <span class="interest-icon"><i class="fas fa-user-md"></i></span>
-                                <h4>To be a Doctor</h4>
+                                <h4>To be a Guitarist</h4>
                             </div>
                             <div class="interest-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>Love to play Guitar, and mostly acoustic</p>
                             </div>
                             <div class="interest-btn">
                                 <a class="btn btn-interest" href="#">Suggest me</a>
@@ -346,10 +347,10 @@
                         <div class="interest-card">
                             <div class="interest-title">
                                 <span class="interest-icon"><i class="fas fa-user-md"></i></span>
-                                <h4>To be a Doctor</h4>
+                                <h4>To be a Donor</h4>
                             </div>
                             <div class="interest-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>I want to donate for the helpless people</p>
                             </div>
                             <div class="interest-btn">
                                 <a class="btn btn-interest" href="#">Suggest me</a>
@@ -360,10 +361,10 @@
                         <div class="interest-card">
                             <div class="interest-title">
                                 <span class="interest-icon"><i class="fas fa-user-md"></i></span>
-                                <h4>To be a Doctor</h4>
+                                <h4>To be a Teacher</h4>
                             </div>
                             <div class="interest-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>Want to teach others, by being perfect</p>
                             </div>
                             <div class="interest-btn">
                                 <a class="btn btn-interest" href="#">Suggest me</a>
@@ -374,10 +375,10 @@
                         <div class="interest-card">
                             <div class="interest-title">
                                 <span class="interest-icon"><i class="fas fa-user-md"></i></span>
-                                <h4>To be a Doctor</h4>
+                                <h4>To be a Founder</h4>
                             </div>
                             <div class="interest-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>Making something new is always exciting</p>
                             </div>
                             <div class="interest-btn">
                                 <a class="btn btn-interest" href="#">Suggest me</a>
@@ -390,7 +391,7 @@
         <!-- /Interest Area -->
         
         <!-- Portfolio Area -->
-        <section class="portfolio-area section-pad bg">
+        <section class="portfolio-area section-pad bg" id="portfolio">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col">
@@ -405,13 +406,13 @@
                             <div class="nav-center">
                                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="portfolio-1-tab" data-toggle="pill" href="#portfolio-1" role="tab" aria-controls="portfolio-1" aria-selected="true">Home</a>
+                                        <a class="nav-link" id="portfolio-1-tab" data-toggle="pill" href="#portfolio-1" role="tab" aria-controls="portfolio-1" aria-selected="true">Web Design</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="portfolio-2-tab" data-toggle="pill" href="#portfolio-2" role="tab" aria-controls="portfolio-2" aria-selected="false">Profile</a>
+                                        <a class="nav-link active" id="portfolio-2-tab" data-toggle="pill" href="#portfolio-2" role="tab" aria-controls="portfolio-2" aria-selected="false">Web Application</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="portfolio-3-tab" data-toggle="pill" href="#portfolio-3" role="tab" aria-controls="portfolio-3" aria-selected="false">Contact</a>
+                                        <a class="nav-link" id="portfolio-3-tab" data-toggle="pill" href="#portfolio-3" role="tab" aria-controls="portfolio-3" aria-selected="false">Project</a>
                                     </li>
                                 </ul>    
                             </div>
@@ -420,22 +421,22 @@
                     <div class="col-md-12">
                         <div class="portfolio">
                             <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="portfolio-1" role="tabpanel" aria-labelledby="portfolio-1-tab">    
+                                <div class="tab-pane fade" id="portfolio-1" role="tabpanel" aria-labelledby="portfolio-1-tab">    
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="portfolio-card">
                                                 <div class="portfolio-img">
-                                                    <img class="img-fluid" src="https://via.placeholder.com/420x220" alt="">
+                                                    <img class="img-fluid" src="assets/img/portfolio/webd/01.png" alt="">
                                                 </div>
                                                 <div class="portfolio-desc">
-                                                    <h4><a href="#">A portfolio should go here</a></h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eius ipsa cupiditate</p>
+                                                    <h4><a href="#">Personal Resume Template</a></h4>
+                                                    <p>A template that fits for every person for their very own portfolio. Available at ThemeForest</p>
                                                     <ul class="portfolio-details list-inline">
+                                                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                                                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                                                         <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><a href=""><i class="fas fa-arrow-right"></i></a></li>
+                                                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                                                        <li class="list-inline-item"><a target="_blank" href="https://themeforest.net/item/redsume-a-personal-clean-resume-template/20542098?ref=ThemeRed"><i class="fas fa-arrow-right"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -443,17 +444,17 @@
                                         <div class="col-md-4">
                                             <div class="portfolio-card">
                                                 <div class="portfolio-img">
-                                                    <img class="img-fluid" src="https://via.placeholder.com/420x220" alt="">
+                                                    <img class="img-fluid" src="assets/img/portfolio/webd/02.png" alt="">
                                                 </div>
                                                 <div class="portfolio-desc">
-                                                    <h4><a href="#">A portfolio should go here</a></h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eius ipsa cupiditate</p>
+                                                    <h4><a href="https://themeforest.net/item/ravis-one-page-responsive-business-template/21005040?ref=Themered">One Page Business Template</a></h4>
+                                                    <p>Lightweight Template designed for Business. Suit every kind. Available at ThemeForest</p>
                                                     <ul class="portfolio-details list-inline">
+                                                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                                                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                                                         <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><a href=""><i class="fas fa-arrow-right"></i></a></li>
+                                                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                                                        <li class="list-inline-item"><a target="_blank" href="https://themeforest.net/item/ravis-one-page-responsive-business-template/21005040?ref=ThemeRed"><i class="fas fa-arrow-right"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -461,17 +462,17 @@
                                         <div class="col-md-4">
                                             <div class="portfolio-card">
                                                 <div class="portfolio-img">
-                                                    <img class="img-fluid" src="https://via.placeholder.com/420x220" alt="">
+                                                    <img class="img-fluid" src="assets/img/portfolio/webd/03.png" alt="">
                                                 </div>
                                                 <div class="portfolio-desc">
-                                                    <h4><a href="#">A portfolio should go here</a></h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eius ipsa cupiditate</p>
+                                                    <h4><a href="#">Domain Web Hosting Template</a></h4>
+                                                    <p>Made for domain + hosting providers including all kind of features. Available at ThemeForest</p>
                                                     <ul class="portfolio-details list-inline">
+                                                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                                                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                                                         <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                                                        <li class="list-inline-item"><a href=""><i class="fas fa-arrow-right"></i></a></li>
+                                                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                                                        <li class="list-inline-item"><a target="_blank" href="https://themeforest.net/item/rehost-onepage-hosting-template/19714001?ref=ThemeRed"><i class="fas fa-arrow-right"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -485,7 +486,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="portfolio-2" role="tabpanel" aria-labelledby="portfolio-2-tab">
+                                <div class="tab-pane fade show active" id="portfolio-2" role="tabpanel" aria-labelledby="portfolio-2-tab">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="portfolio-card">
@@ -548,10 +549,10 @@
                                         <div class="col-md-4">
                                             <div class="portfolio-card">
                                                 <div class="portfolio-img">
-                                                    <img class="img-fluid" src="https://via.placeholder.com/420x220" alt="">
+                                                    <img class="img-fluid" src="assets/img/portfolio/webapp/01.png" alt="">
                                                 </div>
                                                 <div class="portfolio-desc">
-                                                    <h4><a href="#">A portfolio should go here</a></h4>
+                                                    <h4><a href="#">React Web Application - ZenTube</a></h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eius ipsa cupiditate</p>
                                                     <ul class="portfolio-details list-inline">
                                                         <li class="list-inline-item"><i class="fab fa-js"></i></li>
@@ -566,10 +567,10 @@
                                         <div class="col-md-4">
                                             <div class="portfolio-card">
                                                 <div class="portfolio-img">
-                                                    <img class="img-fluid" src="https://via.placeholder.com/420x220" alt="">
+                                                    <img class="img-fluid" src="assets/img/portfolio/webapp/02.png" alt="">
                                                 </div>
                                                 <div class="portfolio-desc">
-                                                    <h4><a href="#">A portfolio should go here</a></h4>
+                                                    <h4><a href="#">Vanilla JavaScript - Drum Kits</a></h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eius ipsa cupiditate</p>
                                                     <ul class="portfolio-details list-inline">
                                                         <li class="list-inline-item"><i class="fab fa-js"></i></li>
@@ -584,10 +585,10 @@
                                         <div class="col-md-4">
                                             <div class="portfolio-card">
                                                 <div class="portfolio-img">
-                                                    <img class="img-fluid" src="https://via.placeholder.com/420x220" alt="">
+                                                    <img class="img-fluid" src="assets/img/portfolio/webapp/03.png" alt="">
                                                 </div>
                                                 <div class="portfolio-desc">
-                                                    <h4><a href="#">A portfolio should go here</a></h4>
+                                                    <h4><a href="#">Vanilla JavaScript - In The End Piano</a></h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eius ipsa cupiditate</p>
                                                     <ul class="portfolio-details list-inline">
                                                         <li class="list-inline-item"><i class="fab fa-js"></i></li>
@@ -610,12 +611,14 @@
         <!-- /Portfolio Area -->
         
         <!-- Contact Area -->
-        <section class="contact-area section-pad">
+        <section class="contact-area section-pad" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.7392986933055!2d90.38506991472777!3d23.756674334586286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8a426199b0d%3A0x6a2c655d06c88ec9!2sFarmgate%2C+Dhaka+1215%2C+Bangladesh!5e0!3m2!1sen!2sin!4v1509721036628" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <div id="googlemaps">
+                                
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -676,6 +679,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
         <script src="assets/js/jquery.cycleText.js"></script>
+        <script src="assets/js/smooth-scroll.min.js"></script>
+        <!-- Custom Google Map JS -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9n-ol1ZeN1FZasbD8BIFLizrhoxw1quE&callback=initMap"
+        async defer></script>
+        <script src="assets/js/map.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>
