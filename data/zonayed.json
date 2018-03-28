@@ -13,9 +13,10 @@
         },
         "skills": {
             "programmingln": ["C", "C++", "Java", "JavaScript", "Python", "PHP"],
-            "web": "[]",
-            "soft": "[]",
-            "basic": "[]",
+            "language": ["English", "Bangla", "Hindi", "Nepali"],
+            "web": ["HTML5", "CSS3", "jQuery", "Bootstrap", "ES6", "React", "Redux", "Node JS", "Express JS", "Redux", "MongoDB", "Electron"],
+            "soft": ["SASS", "Stylus", "Gulp", "Git", "Github"],
+            "basic": ["Photoshop", "Illustrator"],
             "others": "[]"
         }
     }
