@@ -10,6 +10,13 @@
             "live": "Chandigarh, India",
             "religion": "Muslim",
             "description": "I am currently working as a Full Stack Web Developer. I love to work with new things. Also love to add new skills in my pocket continuously. Skill is my weapon and perfection is my habit. Love to code with JavaScript and also love programming."
+        },
+        "skills": {
+            "programmingln": "["C", "C++", "Java", "JavaScript", "Python", "PHP"]",
+            "web": "["HTML5", "CSS", "jQuery", "Bootstrap"]",
+            "soft": "[]",
+            "basic": "[]",
+            "others": "[]"
         }
     }
 }
