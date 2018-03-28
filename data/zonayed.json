@@ -14,7 +14,7 @@
         "skills": {
             "programmingln": ["C", "C++", "Java", "JavaScript", "Python", "PHP"],
             "language": ["English", "Bangla", "Hindi", "Nepali"],
-            "web": ["HTML5", "CSS3", "jQuery", "Bootstrap", "ES6", "React", "Redux", "Node JS", "Express JS", "Redux", "MongoDB", "Electron"],
+            "web": ["HTML5", "CSS3", "jQuery", "Bootstrap", "ES6", "React", "Redux", "Node JS", "Express JS", "MongoDB", "Electron"],
             "soft": ["SASS", "Stylus", "Gulp", "Git", "Github"],
             "basic": ["Photoshop", "Illustrator"],
             "others": "[]"
