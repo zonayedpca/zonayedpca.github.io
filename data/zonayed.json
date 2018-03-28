@@ -5,7 +5,11 @@
             "lastName": "Ahmed",
             "age": 21,
             "fullName": "Zonayed Ahmed",
-            "description": "I am Zonayed Ahmed, from a small, beautiful country, Bangladesh. I am currently working as a Full Stack Web Developer. I love to work with new things. Also love to add new skills in my pocket continuously. Skill is my weapon and perfection is my habit. Love to code with JavaScript and also love programming."
+            "country": "Bangladesh",
+            "born": "Comilla, Bangladesh",
+            "live": "Chandigarh, India",
+            "religion": "Muslim",
+            "description": "I am currently working as a Full Stack Web Developer. I love to work with new things. Also love to add new skills in my pocket continuously. Skill is my weapon and perfection is my habit. Love to code with JavaScript and also love programming."
         }
     }
 }
