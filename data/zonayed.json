@@ -18,6 +18,11 @@
             "soft": ["SASS", "Stylus", "Gulp", "Git", "Github"],
             "basic": ["Photoshop", "Illustrator"],
             "others": "[]"
+        },
+        "portfolio": {
+            "webapplication": [{["portfolio", "http://zonayedpca.github.io/"]}],
+            "webdesign": [{["portfolio", "http://zonayedpca.github.io/"]}],
+            "project": [{["portfolio", "http://zonayedpca.github.io/"]}]
         }
     }
 }
