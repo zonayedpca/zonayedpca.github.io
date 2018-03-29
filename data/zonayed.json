@@ -27,6 +27,7 @@
         "social": [
             {"name": "Facebook", "link": "https://www.facebook.com/zonayedpca"}, 
             {"name": "Twitter", "link": "https://www.twitter.com/zonayedpca"},
+            {"name": "Skype", "link": "zonayedpca"},
             {"name": "Github", "link": "https://www.github.com/zonayedpca"},
             {"name": "SoundCloud", "link": "https://www.soundcloud.com/zonayedpca"}, 
             {"name": "YouTube", "link": "https://www.youtube.com/zonayedpca"}, 
@@ -35,7 +36,7 @@
         "web": [
             {"name": "Website", "link": "https://www.zonayed.me/"}, 
             {"name": "Blog", "link": "https://with.zonayed.me/"},
-            {"name": "Medium", "link": "https://medium.com/@zonayedpca"}
+            {"name": "Medium", "link": "https://medium.com/@zonayedpca"}    
         ]
     }
 }
