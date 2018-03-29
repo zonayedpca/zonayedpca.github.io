@@ -20,9 +20,9 @@
             "others": "[]"
         },
         "portfolio": {
-            "webapplication": [{"portfolio", "http://zonayedpca.github.io/"}],
-            "webdesign": [{["portfolio", "http://zonayedpca.github.io/"]}],
-            "project": [{["portfolio", "http://zonayedpca.github.io/"]}]
+            "webapplication": [{"name": "http://zonayedpca.github.io/", "item": "http://zonayedpca.github.io/"}],
+            "webdesign": [{"name": "http://zonayedpca.github.io/", "item": "http://zonayedpca.github.io/"}],
+            "project": [{"name": "http://zonayedpca.github.io/", "item": "http://zonayedpca.github.io/"}]
         }
     }
 }
