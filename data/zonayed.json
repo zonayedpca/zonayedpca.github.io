@@ -23,6 +23,14 @@
             "webapplication": [{"name": "Express Server", "item": "https://github.com/zonayedpca/node-simple-web-server"}, {"name": "Express Website", "item": "https://github.com/zonayedpca/node-basic-express-website"}, {"name": "Express Blog", "item": "https://github.com/zonayedpca/node-basic-blog-system"}],
             "webdesign": [{"name": "Web Hosting Template", "item": "https://themeforest.net/item/rehost-onepage-hosting-template/19714001?ref=ThemeRed"}, {"name": "Web Hosting Template", "item": "https://themeforest.net/item/arrow-host-one-page-and-multi-page-web-hosting-template/20160906?ref=ThemeRed"}, {"name": "Resume Template", "item": "https://themeforest.net/item/redsume-a-personal-clean-resume-template/20542098"}, {"name": "Business Template", "item": "https://themeforest.net/item/ravis-one-page-responsive-business-template/21005040"}, {"name": "Web Hosting Template", "item": "https://themeforest.net/item/hostqi-html5-responsive-hosting-template/21560859"}],
             "project": [{"name": "ZenTube Personal YouTube", "item": "https://github.com/zonayedpca/ZenTube"}, {"name": "Pure JavaScript Drums", "item": "https://github.com/zonayedpca/drum-kit"}, {"name": "Pure JavaScript Linkin Park Tribute", "item": "https://github.com/zonayedpca/inTheEndPiano"}]
-        }
+        },
+        "social": [
+            {"name": "Facebook", "link": "https://www.facebook.com/zonayedpca"}, 
+            {"name": "Twitter", "link": "https://www.twitter.com/zonayedpca"},
+            {"name": "Github", "link": "https://www.github.com/zonayedpca"},
+            {"name": "SoundCloud", "link": "https://www.soundcloud.com/zonayedpca"}, 
+            {"name": "YouTube", "link": "https://www.youtube.com/zonayedpca"}, 
+            {"name": "Linkedin", "link": "https://linkedin.com/in/zonayedpca/"}
+        ]
     }
 }
