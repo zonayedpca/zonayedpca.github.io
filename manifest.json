@@ -1,6 +1,6 @@
 {
-  "short_name": "Zonayed Shortfolio",
-  "name": "The Reactor - Zonayed Ahmed",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
