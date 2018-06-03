@@ -20,7 +20,7 @@
               }
             ],
             "tools": ["SASS", "Stylus", "Gulp", "Git", "Github"],
-            "web": ["HTML5", "CSS3", "jQuery", "Bootstrap", "ES6", "React", "Redux", "Node JS", "Express JS", "MongoDB", "Electron"],
+            "web": ["HTML5", "CSS3", "jQuery", "Bootstrap", "ES6", "React", "Redux", "Node JS", "Express JS", "MongoDB", "Electron"]
         },
         "portfolio": {
             "webapplication": [{"name": "Express Server", "item": "https://github.com/zonayedpca/node-simple-web-server"}, {"name": "Express Website", "item": "https://github.com/zonayedpca/node-basic-express-website"}, {"name": "Express Blog", "item": "https://github.com/zonayedpca/node-basic-blog-system"}],
