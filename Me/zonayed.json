@@ -178,12 +178,20 @@
         "interest": [
           {
             "title": "To be a guitarist",
-            "image": "",
+            "image": "https://www.zonayed.me/cdn/portfolio/interest/electric-guitar.svg",
             "description": "Love to play Guitar, and mostly acoustic"
           }, {
             "title": "To be a donor",
-            "image": "",
+            "image": "https://www.zonayed.me/cdn/portfolio/interest/charity.svg",
             "description": "I want to donate for the helpless people"
+          }, {
+            "title": "To be a teacher",
+            "image": "https://www.zonayed.me/cdn/portfolio/interest/blackboard.svg",
+            "description": "Want to teach others, by being perfect"
+          }, {
+            "title": "To be a founder",
+            "image": "https://www.zonayed.me/cdn/portfolio/interest/office-block.svg",
+            "description": "Making something new is always exciting"
           }
         ],
         "social": [
