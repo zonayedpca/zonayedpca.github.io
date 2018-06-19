@@ -19,6 +19,31 @@
                 "name": "C",
                 "status": "from 2015",
                 "percentage": 70
+              }, {
+                "id": 2,
+                "name": "C+",
+                "status": "from 2016",
+                "percentage": 60
+              }, {
+                "id": 3,
+                "name": "Java",
+                "status": "from 2017",
+                "percentage": 50
+              }, {
+                "id": 4,
+                "name": "JavaScript",
+                "status": "from 2012",
+                "percentage": 90
+              }, {
+                "id": 5,
+                "name": "Python",
+                "status": "Learning",
+                "percentage": 30
+              }, {
+                "id": 6,
+                "name": "PHP",
+                "status": "Learning",
+                "percentage": 30
               }
             ],
             "tools": [
@@ -27,6 +52,31 @@
                 "name": "Photoshop",
                 "status": "from 2011",
                 "percentage": 90
+              }, {
+                "id": 2,
+                "name": "Illustrator",
+                "status": "from 2013",
+                "percentage": 60
+              }, {
+                "id": 3,
+                "name": "Git & GitHub",
+                "status": "from 2014",
+                "percentage": 90
+              }, {
+                "id": 4,
+                "name": "Web Design",
+                "status": "from 2012",
+                "percentage": 90
+              }, {
+                "id": 5,
+                "name": "Bootstrap",
+                "status": "from 2012",
+                "percentage": 90
+              }, {
+                "id": 6,
+                "name": "Unity",
+                "status": "Learning",
+                "percentage": 30
               }
             ],
             "web": [
@@ -35,6 +85,35 @@
                 "name": "ES6",
                 "status": "from 2017",
                 "percentage": 80
+              }, {
+                "id": 2,
+                "name": "Node JS",
+                "status": "from 2016",
+                "percentage": 70
+              }, 
+                {
+                "id": 3,
+                "name": "Express JS",
+                "status": "from 2017",
+                "percentage": 90
+              }, 
+                {
+                "id": 4,
+                "name": "React",
+                "status": "from 2017",
+                "percentage": 50
+              }, 
+                {
+                "id": 5,
+                "name": "Redux",
+                "status": "Learning",
+                "percentage": 50
+              }, 
+                {
+                "id": 6,
+                "name": "MongoDB",
+                "status": "Learning",
+                "percentage": 50
               }
             ]
         },
