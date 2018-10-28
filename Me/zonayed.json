@@ -3,14 +3,14 @@
         "details": {
             "firstName": "Zonayed",
             "lastName": "Ahmed",
-            "age": 21,
+            "age": 22,
             "fullName": "Zonayed Ahmed",
             "country": "Bangladesh",
             "born": "Comilla, Bangladesh",
             "live": "Chandigarh, India",
             "religion": "Muslim",
-            "description": "I am currently working as a Full Stack Web Developer. I love to work with new things. Also love to add new skills in my pocket continuously. Skill is my weapon and perfection is my habit. Love to code with JavaScript and also love programming.",
-            "profile_cover": "https://with.zonayed.me/wp-content/uploads/2018/06/aboutme.png"
+            "description": "I am currently practicing as a Full Stack Web Developer. I love to work with new things. Also love to add new skills in my pocket continuously. Skill is my weapon and perfection is my habit. Love to code with JavaScript and also love programming.",
+            "profile_cover": "https://with.zonayed.me/wp-content/uploads/2018/10/aboutme.png"
         },
         "skills": {
             "programmingln": [
@@ -23,12 +23,12 @@
                 "id": 2,
                 "name": "C++",
                 "status": "from 2016",
-                "percentage": 60
+                "percentage": 80
               }, {
                 "id": 3,
                 "name": "Java",
                 "status": "from 2017",
-                "percentage": 50
+                "percentage": 40
               }, {
                 "id": 4,
                 "name": "JavaScript",
@@ -37,7 +37,7 @@
               }, {
                 "id": 5,
                 "name": "Python",
-                "status": "Learning",
+                "status": "from 2016",
                 "percentage": 30
               }, {
                 "id": 6,
@@ -69,9 +69,9 @@
                 "percentage": 90
               }, {
                 "id": 5,
-                "name": "Bootstrap",
+                "name": "UI & UX",
                 "status": "from 2012",
-                "percentage": 90
+                "percentage": 70
               }, {
                 "id": 6,
                 "name": "Unity",
@@ -89,26 +89,26 @@
                 "id": 2,
                 "name": "Node JS",
                 "status": "from 2016",
-                "percentage": 70
-              }, 
+                "percentage": 80
+              },
                 {
                 "id": 3,
                 "name": "Express JS",
                 "status": "from 2017",
                 "percentage": 90
-              }, 
+              },
                 {
                 "id": 4,
                 "name": "React",
                 "status": "from 2017",
                 "percentage": 50
-              }, 
+              },
                 {
                 "id": 5,
                 "name": "Redux",
                 "status": "Learning",
                 "percentage": 50
-              }, 
+              },
                 {
                 "id": 6,
                 "name": "MongoDB",
@@ -151,10 +151,10 @@
               {
                 "id": 3,
                 "name": "Domain Web Hosting Template",
-                "image": "https://www.zonayed.me/cdn/portfolio/portfolio/webd/03.png",
+                "image": "http://themered.com/demo/rehost/chooser/assets/img/demo2.png",
                 "description": "Made for domain + hosting providers including all kind of features. Available at ThemeForest",
-                "demo": "https://github.com/zonayedpca/node-simple-web-server",
-                "source": "#",
+                "demo": "http://preview.themeforest.net/item/rehost-onepage-hosting-template/full_screen_preview/19714001?_ga=2.80420375.1497715341.1540363092-439530128.1533445343",
+                "source": "https://themeforest.net/item/rehost-onepage-hosting-template/19714001",
                 "used": ["fab fa-html5", "fab fa-css3-alt"]
               },
               {
