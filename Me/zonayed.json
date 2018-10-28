@@ -283,7 +283,7 @@
                 "description": "Made for people to teach them JavaScript in my own language. Nice, clean and Easy to Read",
                 "demo": "https://js.zonayed.me/",
                 "source": "https://github.com/zonayedpca/js.zonayed.me",
-                "used": ["fas fa-book-open", "fab fa-js", "fab fa-react"]
+                "used": ["fas fa-graduation-cap", "fab fa-js", "fab fa-react"]
               },
               {
                 "id": 4,
@@ -292,7 +292,7 @@
                 "description": "Made for people to teach them React JS in my own language.",
                 "demo": "https://react.zonayed.me/",
                 "source": "https://github.com/zonayedpca/react.zonayed.me",
-                "used": ["fas fa-book-open", "fab fa-js", "fab fa-react"]
+                "used": ["fas fa-graduation-cap", "fab fa-js", "fab fa-react"]
               },
               {
                 "id": 3,
