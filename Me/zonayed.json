@@ -268,31 +268,58 @@
               ],
             "project": [
               {
+                "id": 6,
+                "name": "Next Rocket Launch",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/project-nasa.jpg",
+                "description": "Made for NASA Space Apps Challenge 2018. You can get the information of old and upcoming Rocket Launches",
+                "demo": "https://nasa.zonayed.me/",
+                "source": "https://github.com/zonayedpca/nasa-rocket-launch",
+                "used": ["fas fa-space-shuttle", "fab fa-js", "fab fa-react"]
+              },
+              {
+                "id": 5,
+                "name": "Learn JavaScript with Zonayed",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/project-jszonayedme.jpg",
+                "description": "Made for people to teach them JavaScript in my own language. Nice, clean and Easy to Read",
+                "demo": "https://js.zonayed.me/",
+                "source": "https://github.com/zonayedpca/js.zonayed.me",
+                "used": ["fas fa-book-open", "fab fa-js", "fab fa-react"]
+              },
+              {
+                "id": 4,
+                "name": "Learn React with Zonayed",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/project-reactzonayedme.jpg",
+                "description": "Made for people to teach them React JS in my own language.",
+                "demo": "https://react.zonayed.me/",
+                "source": "https://github.com/zonayedpca/react.zonayed.me",
+                "used": ["fas fa-book-open", "fab fa-js", "fab fa-react"]
+              },
+              {
                 "id": 3,
-                "name": "Basic Functional Blog System - Node JS",
-                "image": "https://www.zonayed.me/cdn/portfolio/portfolio/webapp/03.png",
-                "description": "Made for domain + hosting providers including all kind of features. Available at ThemeForest",
-                "demo": "https://github.com/zonayedpca/node-simple-web-server",
-                "source": "#",
-                "used": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js", "fab fa-php"]
+                "name": "Movie Pocket - Node JS",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/project-moviepocket.jpg",
+                "description": "To make your own watchlist and get all kinds of information about the movie/show/episode",
+                "demo": "https://node-movie-pocket.herokuapp.com/",
+                "source": "https://github.com/zonayedpca/node-movie-pocket",
+                "used": ["fas fa-film", "fab fa-node", "fas fa-database"]
               },
               {
                 "id": 2,
-                "name": "Basic Express Website - Node JS",
-                "image": "https://www.zonayed.me/cdn/portfolio/portfolio/webapp/02.png",
-                "description": "Made for domain + hosting providers including all kind of features. Available at ThemeForest",
-                "demo": "https://github.com/zonayedpca/node-simple-web-server",
-                "source": "#",
-                "used": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js", "fab fa-php"]
+                "name": "Basic Express Authentication - Node JS",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/project-nodeauth.jpg",
+                "description": "This is a simple Node Express based Authentication System. The project structure is ready to use in any production level",
+                "demo": "https://zonayedpca-node-authentication.herokuapp.com/",
+                "source": "https://github.com/zonayedpca/node-authentication",
+                "used": ["fas fa-shield-alt", "fab fa-node"]
               },
               {
                 "id": 1,
                 "name": "Express Simple Web Server - Node JS",
-                "image": "https://www.zonayed.me/cdn/portfolio/portfolio/webapp/01.png",
-                "description": "Made for domain + hosting providers including all kind of features. Available at ThemeForest",
-                "demo": "https://github.com/zonayedpca/node-simple-web-server",
-                "source": "#",
-                "used": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js", "fab fa-php"]
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/project-nodeserver.jpg",
+                "description": "This is a simple Node Express web server. The project structure is ready to use in any production node js web application",
+                "demo": "https://zonayedpca-node-web-server.herokuapp.com/",
+                "source": "https://github.com/zonayedpca/node-web-server",
+                "used": ["fas fa-server", "fab fa-node"]
               }
               ]
         },
