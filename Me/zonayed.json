@@ -120,13 +120,76 @@
         "portfolio": {
             "webapplication": [
               {
+                "id": 11,
+                "name": "Mini Blog - React Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/reactminiblog.jpg",
+                "demo": "https://zonayedpca.github.io/react-mini-blog/",
+                "description": "A Medium like Mini Blog, supports Bookmark and New Post. Everything in Client-Side Only",
+                "source": "https://github.com/zonayedpca/react-mini-blog",
+                "used": ["fab fa-js", "fab fa-react"]
+              },
+              {
+                "id": 10,
+                "name": "Micro Blog - React Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/reactmicroblog.jpg",
+                "demo": "https://zonayedpca.github.io/react-micro-blog/",
+                "description": "A Twitter like Micro Blog, supports Hashtag and Character Limit. Everything in Client-Side Only",
+                "source": "https://github.com/zonayedpca/react-micro-blog",
+                "used": ["fab fa-js", "fab fa-react"]
+              },
+              {
+                "id": 9,
+                "name": "Fake Poll - React Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/reactfakepoll.jpg",
+                "demo": "https://zonayedpca.github.io/react-fake-poll/",
+                "description": "A Simple Poll Application, also can store history. Everything in Client-Side Only",
+                "source": "https://github.com/zonayedpca/react-fake-poll",
+                "used": ["fab fa-js", "fab fa-react"]
+              },
+              {
+                "id": 8,
+                "name": "To Do List - Vue Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/todolistvue.jpg",
+                "description": "A Simple but with Complex functions To Do List Application, made using Vue JS",
+                "demo": "https://zonayedpca.github.io/vue-todo/",
+                "source": "https://github.com/zonayedpca/vue-todo",
+                "used": ["fab fa-js", "fab fa-vuejs"]
+              },
+              {
+                "id": 7,
+                "name": "Cart System - React Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/reactart.jpg",
+                "description": "Want to see how fast it is to add a new item in the cart? React can make it faster then ever",
+                "demo": "http://zonayedpca.github.io/react-cart",
+                "source": "https://github.com/zonayedpca/react-cart",
+                "used": ["fab fa-js", "fab fa-react"]
+              },
+              {
+                "id": 6,
+                "name": "Civil Aviation Weather System - React Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/civilweather.jpg",
+                "description": "Going somewhere? Then check the weather of your destination as well as your own. Nice and Clean",
+                "demo": "https://zonayedpca.github.io/civilAviationWeatherApp/",
+                "source": "https://github.com/zonayedpca/civilAviationWeatherApp",
+                "used": ["fab fa-js", "fab fa-react"]
+              },
+              {
+                "id": 5,
+                "name": "Bengali Prayer Times - React Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/bengaliprayertime.jpg",
+                "description": "Get your local prayer timings. Just allow it to get your location or enter your location manually",
+                "demo": "https://zonayedpca.github.io/BengaliPrayerTimings/",
+                "source": "https://github.com/zonayedpca/BengaliPrayerTimings",
+                "used": ["fab fa-js", "fab fa-react"]
+              },
+              {
                 "id": 4,
-                "name": "Pure JavaScript - In the End Piano",
-                "image": "https://www.zonayed.me/cdn/portfolio/portfolio/pro/03.png",
-                "description": "Play the piano version of Linkin Park's In The End yourself(Tribute to Chester)",
-                "demo": "https://zonayedpca.github.io/inTheEndPiano/",
-                "source": "https://github.com/zonayedpca/inTheEndPiano",
-                "used": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js", "fab fa-react", "fab fa-youtube"]
+                "name": "Holy Quran - React Application",
+                "image": "https://with.zonayed.me/wp-content/uploads/2018/10/holyquranreact.jpg",
+                "description": "Read the holy Quran in both English and Arabic. Easy to navigate and clean design",
+                "demo": "https://zonayedpca.github.io/HolyQuranReact/",
+                "source": "https://github.com/zonayedpca/HolyQuranReact",
+                "used": ["fab fa-js", "fab fa-react"]
               },
               {
                 "id": 3,
