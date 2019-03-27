@@ -16,8 +16,8 @@ class ReposArea extends Component {
 
   getData = async() => {
     try {
-      const { data: repos1 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=1&sort=date`);
-      const { data: repos2 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=2&sort=date`);
+      const { data: repos1 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=1&sort=created&type=owner`);
+      const { data: repos2 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=2&sort=created&type=owner`);
       let repos = [...repos1, ...repos2];
       this.setState({ repos });
     } catch(err) {
