@@ -16,14 +16,9 @@ class ReposArea extends Component {
 
   getData = async() => {
     try {
-      const { data: repos1 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=1`);
-      const { data: repos2 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=2`);
-      const { data: repos3 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=3`);
-      const { data: repos4 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=4`);
-      const { data: repos5 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=5`);
-      let repos = [...repos1, ...repos2, ...repos3, ...repos4, ...repos5];
-      const sortedRepos = repos.sort((repo1, repo2) => repo1.created_at - repo2.created_at);
-      console.log(sortedRepos);
+      const { data: repos1 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=1&sort=date`);
+      const { data: repos2 } = await axios(`https://api.github.com/users/zonayedpca/repos?page=2&sort=date`);
+      let repos = [...repos1, ...repos2];
       this.setState({ repos });
     } catch(err) {
       this.setState({ error: 'Somthing went wrong!' })
