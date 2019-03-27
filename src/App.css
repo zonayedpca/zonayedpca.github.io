@@ -1,33 +1,182 @@
-.App {
+@keyframes loader {
+  from {
+    left: 80px;
+  }
+  to {
+    left: -80px;
+  }
+}
+
+.loader {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 30px;
+  margin: 0 auto;
+  background: #ccc;
+  background: -moz-linear-gradient(left, #ffffff 0%, #cccccc 50%, #ffffff 100%);
+  background: -webkit-linear-gradient(left, #ffffff 0%,#cccccc 50%,#ffffff 100%);
+  background: linear-gradient(to right, #ffffff 0%,#cccccc 50%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+  animation: linear loader 1s infinite alternate;
+}
+
+.intro .img {
+  position: relative;
+  display: inline-block;
+}
+
+.error .code {
+  position: relative;
+  font-size: 36px;
+  font-weight: 900;
+  color: #000;
+  top: -14px;
+}
+
+.error p {
+  display: inline-block;
+  font-size: 26px;
+  color: #ccc;
+}
+
+.error {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes blink {
   from {
-    transform: rotate(0deg);
+    background: #4CAF50;
   }
+
   to {
-    transform: rotate(360deg);
+    background: #fff;
   }
+}
+
+.intro .img:after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: #4CAF50;
+  border-radius: 100%;
+  border: solid 5px #fff;
+  animation: cubic-bezier(0.4, 0, 1, 1) blink 1s alternate infinite;
+}
+
+.intro .img img {
+    border-radius: 100%;
+    padding: 10px;
+    height: 160px;
+    width: 160px;
+    border: dotted 4px #000;
+}
+
+.container {
+    width: 767px;
+    margin: 100px auto;
+}
+
+.intro {
+  text-align: center;
+  padding-bottom: 100px;
+  border-bottom: solid 4px #000;
+}
+
+.intro h1 {
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 900;
+}
+
+.intro .username {
+    font-weight: 900;
+    font-size: 20px;
+    color: #727272;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.intro .username:before {
+    content: "(";
+}
+
+.intro .username:after {
+    content: ")";
+}
+
+.intro .bio {
+  margin-bottom: 15px;
+}
+
+.intro .list {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repos>* {
+  flex: 1 1 calc(50% - 60px);
+}
+
+.repo {
+  position: relative;
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  margin: 5px;
+}
+
+.repo h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.repo ul li {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 18px;
+  list-style: none;
+  margin-right: 15px;
+}
+
+.repo ul {
+  margin-top: 15px;
+}
+
+.repo h3 {
+  margin-bottom: 15px;
+}
+
+.footer {
+  padding-top: 25px;
+  border-top: solid 4px #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer>* {
+  flex: 1;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer p {
+  text-align: right;
+}
+
+.footer p strong {
+  font-weight: 900;
 }
