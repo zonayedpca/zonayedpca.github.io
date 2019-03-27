@@ -1,0 +1,42 @@
+{
+    "data": {
+        "details": {
+            "firstName": "Zonayed",
+            "lastName": "Ahmed",
+            "age": 21,
+            "fullName": "Zonayed Ahmed",
+            "country": "Bangladesh",
+            "born": "Comilla, Bangladesh",
+            "live": "Chandigarh, India",
+            "religion": "Muslim",
+            "description": "I am currently working as a Full Stack Web Developer. I love to work with new things. Also love to add new skills in my pocket continuously. Skill is my weapon and perfection is my habit. Love to code with JavaScript and also love programming."
+        },
+        "skills": {
+            "programmingln": ["C", "C++", "Java", "JavaScript", "Python", "PHP"],
+            "language": ["English", "Bangla", "Hindi", "Nepali"],
+            "web": ["HTML5", "CSS3", "jQuery", "Bootstrap", "ES6", "React", "Redux", "Node JS", "Express JS", "MongoDB", "Electron"],
+            "soft": ["SASS", "Stylus", "Gulp", "Git", "Github"],
+            "basic": ["Photoshop", "Illustrator"],
+            "others": "[]"
+        },
+        "portfolio": {
+            "webapplication": [{"name": "Express Server", "item": "https://github.com/zonayedpca/node-simple-web-server"}, {"name": "Express Website", "item": "https://github.com/zonayedpca/node-basic-express-website"}, {"name": "Express Blog", "item": "https://github.com/zonayedpca/node-basic-blog-system"}],
+            "webdesign": [{"name": "Web Hosting Template", "item": "https://themeforest.net/item/rehost-onepage-hosting-template/19714001?ref=ThemeRed"}, {"name": "Web Hosting Template", "item": "https://themeforest.net/item/arrow-host-one-page-and-multi-page-web-hosting-template/20160906?ref=ThemeRed"}, {"name": "Resume Template", "item": "https://themeforest.net/item/redsume-a-personal-clean-resume-template/20542098"}, {"name": "Business Template", "item": "https://themeforest.net/item/ravis-one-page-responsive-business-template/21005040"}, {"name": "Web Hosting Template", "item": "https://themeforest.net/item/hostqi-html5-responsive-hosting-template/21560859"}],
+            "project": [{"name": "ZenTube Personal YouTube", "item": "https://github.com/zonayedpca/ZenTube"}, {"name": "Pure JavaScript Drums", "item": "https://github.com/zonayedpca/drum-kit"}, {"name": "Pure JavaScript Linkin Park Tribute", "item": "https://github.com/zonayedpca/inTheEndPiano"}]
+        },
+        "social": [
+            {"name": "Facebook", "link": "https://www.facebook.com/zonayedpca"}, 
+            {"name": "Twitter", "link": "https://www.twitter.com/zonayedpca"},
+            {"name": "Skype", "link": "skype:zonayedpca?call"},
+            {"name": "Github", "link": "https://www.github.com/zonayedpca"},
+            {"name": "SoundCloud", "link": "https://www.soundcloud.com/zonayedpca"}, 
+            {"name": "YouTube", "link": "https://www.youtube.com/zonayedpca"}, 
+            {"name": "Linkedin", "link": "https://linkedin.com/in/zonayedpca/"}
+        ],
+        "web": [
+            {"name": "Website", "link": "https://www.zonayed.me/"}, 
+            {"name": "Blog", "link": "https://with.zonayed.me/"},
+            {"name": "Medium", "link": "https://medium.com/@zonayedpca"}    
+        ]
+    }
+}
